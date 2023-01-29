@@ -5,9 +5,10 @@ import '../App.css'
 const Navbar = () => {
   return (
     <div>
-      <li>
-        Home
-      </li>
+      <ul>
+        <li className='nav'>Home</li>
+        <li className='nav'>About</li>
+      </ul>
     </div>
   );
 };
