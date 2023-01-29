@@ -4,10 +4,12 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 // import NotFound from './components/NotFound';
 import About from './components/About';
+import NavBar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
+      <NavBar />
       <Header />
       <Home />
       <About />
