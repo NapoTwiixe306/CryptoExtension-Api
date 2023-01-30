@@ -3,9 +3,9 @@ import '../App.css'
 
 const Header = () => {
   return (
-    <header>
-      <h1 className='Test'>Header Component</h1>
-    </header>
+    <div className="header">
+      <h1 className="header_title">Welcome To CryptoExtension-API</h1>
+    </div>
   );
 };
 
