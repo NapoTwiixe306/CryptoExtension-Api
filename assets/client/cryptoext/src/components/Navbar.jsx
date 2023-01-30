@@ -4,13 +4,10 @@ import '../App.css'
 
 const Navbar = () => {
   return (
-    <div>
-      <div className="logo">
+    <div className='tqt'>
         <h1 className='logo'>CryptoExtension-Api</h1>
-      </div>
       <ul className='navbar'>
-        <li className='nav'>Home</li>
-        <li className='nav'>About</li>
+        <li>CryptoExtension</li>
       </ul>
     </div>
   );
