@@ -1,10 +1,5 @@
 import React from 'react';
-import Header from './components/Header'
-import Footer from './components/Footer';
-import Home from './components/Home';
-// import NotFound from './components/NotFound';
-import About from './components/About';
-import NavBar from './components/Navbar';
+import { Header, NavBar, Home, About, Footer } from './components';
 
 function App() {
   return (
