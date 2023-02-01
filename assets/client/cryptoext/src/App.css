@@ -100,3 +100,40 @@
   width: 35%;
   border-radius: 35px;
 }
+
+.text{
+  padding-inline: 200px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.footer{
+  margin-top: 1rem;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.footer_text{
+  position: relative;
+  top: -10px;
+  font-size: 25px;
+  letter-spacing: 2px;
+  color: var(--text-color);
+}
+
+
+.lofo{
+  padding: 30px;
+  cursor: pointer;
+  background-color: transparent;
+  transition: 0.3s;
+}
+
+.lofo:hover{
+  font-size: 25px;
+  color: red;
+}
